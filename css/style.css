@@ -133,6 +133,7 @@ footer{
     min-height: 500px;
     background-color: #1d213e;
     display:flex;
+    margin-bottom:5px;
 }
 
 .aside>p{
