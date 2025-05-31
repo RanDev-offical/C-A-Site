@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+html{
+    background-color: #022027;
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 300;
+    font-size: px;
+    color:#FFFF;
+    text-shadow:
+    0.5px 1px 0.4px white,
+    0 0 1em white,
+    0 0 0.2em white;
+}
+
+header{
+    min-height: 80px;
+    background-color: #1d213e;
+}
+
+footer{
+    background-color: #1d213e;
+    min-height: 80px;
+    display: flexbox;
+    align-items: end;
+    justify-content:end ;
+    margin-left:0;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+}
+
+/*Фото*/
+.photo{
+    display: flex;
+    flex-flow:row wrap;
+    align-items: center;
+}
+
+img{
+    scale: 0.7;
+    width:375px;
+    height:450px;
+}
+
+
+/*Персонал*/
+.personal{
+    background-color: #1E213d;
+    width: 220px;
+    height: 230px;
+    display:flexbox;
+    justify-content: end;
+    flex-direction: column;
+    margin-right:65%;
+}
+
+a{
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 300;
+    font-size: px;
+    color:#FFFF;
+    text-shadow:
+    0.5px 1px 0.4px white,
+    0 0 1em white,
+    0 0 0.2em white;
+    margin-bottom: 5px;
+    margin-left: 15px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+
+}
