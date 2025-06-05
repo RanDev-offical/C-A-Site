@@ -24,6 +24,7 @@ body, a {
     background-color: #1a153e;
     width: 250px;
     height: 116vh;
+    position:fixed;
 }
 
 a{
@@ -79,6 +80,7 @@ img{
     align-items:flex-start;
     flex-direction: column;
     margin-right:20px;
+    margin-bottom: 35px;
 }
 
 .aside>p{
@@ -93,8 +95,8 @@ img{
     margin-left:20px;
     width: 25%;
     height:165px ;
-    position: absolute;
     margin-top:250px;
+    margin-left: 320px;
 }
 
 .warning>p{
@@ -127,24 +129,11 @@ footer{
 }
 
 
-/*Новости*/
-.aside {
-    width: 200px;
-    min-height: 500px;
-    background-color: #1d213e;
-    display:flex;
-    margin-bottom:5px;
-}
-
-.aside>p{
-    margin-left:5px;
-}
-
 
 img{
     display: flex;
     width:25%;
     height:20%;
     transform:scale(1.2);
-    margin-left: 2px;
+    margin-left: 250px;
 }
