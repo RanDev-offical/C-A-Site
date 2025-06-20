@@ -9,6 +9,7 @@ html{
     0.5px 1px 0.4px white,
     0 0 1em white,
     0 0 0.2em white;
+    scroll-behavior: smooth;
 }
 
 header{
@@ -31,11 +32,31 @@ footer{
 }
 
 /*Фото*/
-.photo{
+.slider{
     display: flex;
     flex-flow:row wrap;
     align-items: center;
+    width: 1200px;
+    margin-left:1200px;
 }
+
+.slider_nav>div{
+    float: left;
+    border: 3px solid #fff;
+    display: flex;
+    align-items: center;
+    scale: 0.7;
+}
+
+.slider-nav > div a {
+    display: block;
+    cursor: pointer;
+}
+
+.slider-nav > div a.active {
+    border-bottom: 3px solid #000;
+}
+
 
 img{
     scale: 0.7;
@@ -43,6 +64,9 @@ img{
     height:450px;
 }
 
+.bx-wrapper {
+    width: 775px;
+}
 
 /*Персонал*/
 .personal{
@@ -69,5 +93,29 @@ a{
     text-decoration: none;
     display: flex;
     flex-direction: column;
+
+}
+
+/*Iphone SE*/
+
+/*Вертикаль*/
+@media(max-width:375px) and (orientation:portrait){
+
+.slider{
+    width:15px;
+    margin-left:0px;
+}
+
+footer{
+width:378px;
+}
+
+header{
+width:378px;
+}
+
+.personal{
+    scale:0.8
+}
 
 }
