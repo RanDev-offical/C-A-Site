@@ -1,48 +1,49 @@
-
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
-html{
+
+html {
     background-color: #022027;
+    scroll-behavior: smooth;
 }
 
 /*О нас*/
-.about_shell{
+.about_shell {
     background-color: #1E213d;
     width: 20%;
     height: 30%;
     border-radius: 5px;
 }
 
-.about_container{
+.about_container {
     font-family: "IBM Plex Mono", monospace;
     font-weight: 300;
-    font-size:40 px;
-    color:#FFFF;
+    font-size: 40 px;
+    color: #FFFF;
     text-shadow:
-    0.5px 1px 0.4px white,
-    0 0 1em white,
-    0 0 0.2em white;
+        0.5px 1px 0.4px white,
+        0 0 1em white,
+        0 0 0.2em white;
     margin-bottom: 100px;
     margin-left: 10px;
 }
 
 
 /*Контакты*/
-.contacts_shell{
+.contacts_shell {
     background-color: #1E213d;
     width: 20%;
     height: 45%;
     border-radius: 5px;
 }
 
-.contacts_container{
+.contacts_container {
     font-family: "IBM Plex Mono", monospace;
     font-weight: 300;
-    font-size:40 px;
-    color:#FFFF;
+    font-size: 40 px;
+    color: #FFFF;
     text-shadow:
-    0.5px 1px 0.4px white,
-    0 0 1em white,
-    0 0 0.2em white;
+        0.5px 1px 0.4px white,
+        0 0 1em white,
+        0 0 0.2em white;
     margin-bottom: 100px;
     margin-left: 10px;
 }
