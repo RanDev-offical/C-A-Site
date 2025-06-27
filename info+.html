@@ -1,32 +1,45 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Допонительная информация</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='css/info+.css'>
-    <script src='main.js'></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
 </head>
+
 <body>
     <header></header>
     <div class="personal">
-            <h1>Для персонала</h1>
-            <nav>
-                <a href="contract.html">Трудовой договор</a>
-                <a href="images/TheWackyWatch.com_Old_Video.mp4.mp4">Вступительный ролик</a>
-                <a href="term.html">Терминал</a>
-            </nav>
+        <h1>Для персонала</h1>
+        <nav>
+            <a href="contract.html">Трудовой договор</a>
+            <a href="images/TheWackyWatch.com_Old_Video.mp4.mp4">Вступительный ролик</a>
+            <a href="term.html">Терминал</a>
+        </nav>
     </div>
 
-    <div class="photo">
-        <img src="images/Company_exit.jpg">
-        <img src="images/Company_inside_1.jpg">
-        <img src="images/Company_inside_2.jpg">
-        <img src="images/Company_inside_3.jpg">
-        <img src="images/Company_inside_4.jpg">
-        <img src="images/">
+    <div class="slider">
+        <div><img src="images/Company_exit.jpg"></div>
+        <div><img src="images/Company_inside_1.jpg"></div>
+        <div><img src="images/Company_inside_2.jpg"></div>
+        <div><img src="images/Company_inside_3.jpg"></div>
+        <div><img src="images/Company_inside_4.jpg"></div>
     </div>
-<footer></footer>
+    <div></div>
+    <div class="slider_nav">
+        <div><a class="active" data-slide-index="0"> <img src="images/Company_exit.jpg" alt=""> </a></div>
+        <div><a data-slide-index="1"> <img src="images/Company_inside_1.jpg" alt=""> </a></div>
+        <div><a data-slide-index="2"> <img src="images/Company_inside_2.jpg" alt=""> </a></div>
+        <div><a data-slide-index="3"> <img src="images/Company_inside_3.jpg" alt=""> </a></div>
+        <div><a data-slide-index="4"> <img src="images/Company_inside_4.jpg" alt=""> </a></div>
+    </div>
+    <footer></footer>
+    <script src="scripts/info+.js"></script>
 </body>
+
 </html>
