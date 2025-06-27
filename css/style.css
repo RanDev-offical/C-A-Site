@@ -144,7 +144,7 @@ img {
 }
 
 /*Вертикаль*/
-@media(max-width: 375px) and (orientation:portrait) {
+@media(max-width: 375px) {
 
     /*Slidebar*/
     .sidebar {
@@ -211,7 +211,7 @@ img {
         z-index: 0;
         width: 790px;
         height: 265px;
-        transform: scale(0.7);
+        transform: scale(0.6);
 
         margin: 0;
         position: relative;
@@ -224,20 +224,24 @@ img {
         justify-content: start;
     }
 
+    .warning>p {
+        scale: 1.1;
+    }
+
     /*Границы*/
-    header{
-        width: 375px; 
+    header {
+        width: 375px;
     }
 
     footer {
-        width: 375px; 
+        width: 375px;
         z-index: -1;
     }
 
     footer>p {
-        z-index: -1;
-        margin-left: 50px;
+        margin-left: 110px;
     }
+
 }
 
 
@@ -302,5 +306,10 @@ img {
     footer {
         width: 667px;
     }
+
+    footer>p {
+        margin-left: 265px;
+    }
+
 
 }
