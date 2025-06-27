@@ -1,14 +1,18 @@
-.content{
+html {
+    scroll-behavior: smooth;
+}
+
+.content {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top:15%;
+    margin-top: 15%;
 }
 
-input{
+input {
     display: flex;
     flex-direction: column;
-    margin:10px;
+    margin: 10px;
 
 
     border-radius: 5px;
@@ -16,28 +20,27 @@ input{
     color: white;
     font-family: "IBM Plex Mono", monospace;
     font-weight: 300;
-    font-size:40 px;
-    color:#FFFF;
+    font-size: 40 px;
+    color: #FFFF;
     text-shadow:
-    0.5px 1px 0.4px white,
-    0 0 1em white,
-    0 0 0.2em white;
+        0.5px 1px 0.4px white,
+        0 0 1em white,
+        0 0 0.2em white;
 }
 
-input::placeholder:hover{
-    color:aqua;
+input::placeholder:hover {
+    color: aqua;
 }
 
-html{
+html {
     background-color: #022027;
     color: white;
     font-family: "IBM Plex Mono", monospace;
     font-weight: 300;
-    font-size:40 px;
-    color:#FFFF;
+    font-size: 40 px;
+    color: #FFFF;
     text-shadow:
-    0.5px 1px 0.4px white,
-    0 0 1em white,
-    0 0 0.2em white;
+        0.5px 1px 0.4px white,
+        0 0 1em white,
+        0 0 0.2em white;
 }
-
